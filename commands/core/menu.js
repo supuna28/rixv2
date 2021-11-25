@@ -64,14 +64,14 @@ Hello ${name} ${ucapan()}
 *Battery:* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 Ｃｈａｒｇｉｎｇ' : '⚡ Discharging' }` : 'Not detected'}
 
 *Ｓｔａｔｕｓ ｏｔｈｅｒ:*
-*Islam Calender:* ${dateIslamic}
+* Calender:* ${dateIslamic}
 *calender:* ${week} ${weton} ${date}
 
 *Found Bug?*
 ${userbot.prefix}report text
 
-*My Rest Api's*
-https://rizapi.herokuapp.com/
+*GROUP's*
+https://chat.whatsapp.com/CIDWlH7yzEsKombRDcTKcV/
 
 *Click the menu button below*`
 
