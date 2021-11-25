@@ -9,7 +9,7 @@ name: ["play"],
 
 type: ["download"],
 useLimit: true,
-description: "download audio dari youtube dengan text",
+description: "download youtube ",
 utilisation: userbot.prefix + "play <link>",
 
 async execute(m) {
@@ -37,7 +37,7 @@ let results = await yts(text)
   if (yt2 === false) throw 'semua server gagal'
   let { dl_link, thumb, title, filesize, filesizeF } = yt
   // m.quoted.delete()
-m.reply('SEDANG DI PROSES')
+m.reply('WAIT 🧘‍♂️')
 await conn.send2ButtonLoc(m.chat, await (await fetch(thumb)).buffer(), `
 *ＰＬＡＹ ＢＵＴＴＯＮ*
 *Title:* ${title}
