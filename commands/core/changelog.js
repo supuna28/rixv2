@@ -3,10 +3,10 @@ const package = require('../../package.json')
       changelog = require('../../changelog.json')
 
 module.exports = {
-name: ["changelog"],
+name: ["BOT KINGDOM"],
 type: ["default"],
-description: "changelog bot",
-utilisation: userbot.prefix + "changelog",
+description: "BOT KINGDOM",
+utilisation: userbot.prefix + "botkingdom",
 
 async execute(m) {
 let { conn, text } = data
@@ -18,7 +18,7 @@ let d = new Date
         year: 'numeric'
     })
 let name = conn.getName(conn.user.jid)
-let caption = `Changelog 
+let caption = `botkingdom 
 tanggal: ${date}
 versi saat ini *${package.version}*
 
